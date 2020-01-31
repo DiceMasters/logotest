@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+
+		<p>
+			<ul>
+				<li>1 - default</li>
+				<li>2 - font smooth</li>
+				<li>3 - translateZ 0</li>
+				<li>4 - font smooth + translateZ 0</li>
+			</ul>
+		</p>
+	</main>
+
+	<style>
+		span:nth-child(2) {
+			-webkit-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+		}
+
+		span:nth-child(3) {
+			transform: translateZ(0);
+		}
+
+		span:nth-child(3) {
+			-webkit-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+			transform: translateZ(0);
+		}
+	</style>
+</body>
+</html>

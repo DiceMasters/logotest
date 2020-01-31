@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'icomoon';
+	font-display: auto;
+	src:  url('font/icomoon.eot?humo8o');
+	src:  url('font/icomoon.eot?humo8o#iefix') format('embedded-opentype'),
+	url('font/icomoon.woff?humo8o') format('woff'),
+	url('font/icomoon.ttf?humo8o') format('truetype'),
+	url('font/icomoon.svg?humo8o#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+main {
+	width: 100%;
+	min-height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+
+main span {
+	width: 120px;
+	height: 80px;
+	font-family: 'icomoon';
+	font-size: 80px;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+}
+
+main span:before {
+	content: "\e910";
+}
